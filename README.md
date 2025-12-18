@@ -24,7 +24,6 @@ python3 vuln_scanner.py 127.0.0.1 --top-ports 2000 \
   --severity CRITICAL,HIGH,MEDIUM \
   --title "BellSec Vulnerability Report" \
   --json examples/sample_localhost.json
-cat > README.md <<'MD'
 # BellSec Vulnerability Scanner
 
 A Python tool that scans hosts with **Nmap**, enriches findings with **CVEs** (NVD with **CIRCL** fallback), and generates **HTML/JSON** reports with severity filtering and an executive-style summary.
